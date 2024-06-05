@@ -18,16 +18,11 @@ The clean data (clean_data.csv)
 5. Implementation of algorithms and selecting hyperparameters.
 
 ## Conclusion
-\begin{table}[h!]
-\centering
-\begin{tabular}{|l|c|c|}
-\hline
-\textbf{Model} & \textbf{$R^2$} & \textbf{Computation Time (s)} \\ \hline
-Linear Regression & 0.79 & 0.1 \\ \hline
-Decision Trees & 0.68 & 8.5 \\ \hline
-K-Neighbors & 0.93 & 10.4 \\ \hline
-Neural Networks & 0.89 & 1296 \\ \hline
-\end{tabular}
-\caption{Comparison of different models}
-\label{table:comparison}
-\end{table}
+| Model            | $R^2$ | Computation Time (s) |
+|------------------|-------|----------------------|
+| Linear Regression| 0.79  | 0.1                  |
+| Decision Trees   | 0.68  | 8.5                  |
+| K-Neighbors      | 0.93  | 10.4                 |
+| Neural Networks  | 0.89  | 1296                 |
+
+
